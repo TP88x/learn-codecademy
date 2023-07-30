@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #505050 ;
+}
+/* img,video{
+    width: 100px;
+} */
+header{
+    margin: 0;
+    padding:0;
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+}
+img.logo{
+    width: 100%;
+    margin-left: 24px;
+}
+h1{
+    /* border: 1px solid green; */
+    font-size: 1.65rem;
+    padding: 16px 0px;
+    font-weight: 400;    
+}
+.herder-box{
+    /* border: 1px solid rgb(8, 4, 255); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    
+}
+.herder-nav{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-content: center;
+    gap: 16px;
+    padding: 20.5px 24px;
+    font-size: 1.2rem;
+}
+a{
+    padding: 16px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+}
+nav ul li a:hover{
+    border-radius:15px;
+    background-color: gainsboro;
+}
+.banner{
+    background-color: gainsboro;
+    display: flex;
+    margin-top: 64px;
+}
+.banner-img{
+    padding: 32px 24px;
+    width: 60%;
+}
+.learn{
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100%;
+    /* width: 30%; */
+    width: 350px;
+    font-size: 2rem;
+    margin: 1px;
+    margin-top: 10%;
+    color: #505050 ;
+}
+button{
+
+    background-color: #505050 ;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.5rem;
+}
+.learn-p{
+    font-size: 1.5rem;  
+    padding: 24px 0px;
+ }
+ /* main */
+.main{
+    background-color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100%;
+}
+.banner-img2{
+    padding: 32px 24px;
+    width: 100%;
+}
+article{
+    /* border: 1px solid blue; */
+    width: 60%;
+}
+
+.read{
+    color:blue;
+    font-size: 1rem;
+}
+.box-img{
+    width: 35%;
+    height: auto;
+}
+.box-it{
+    /* border: 1px solid red; */
+    margin: 0 24px;
+    padding-bottom: 24px;
+}
+article p {
+    padding-top: 24px;
+}
+h2{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.line-p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+h3{
+    font-size: 1.3rem;
+}
+
+/* **********************Start learning**************************** */
+
+section.learning h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.box-start{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+}
+.start{
+    width: 100%;
+    height: auto;
+}
+.box-card{
+    /* border: 1px solid pink; */
+    background-color: white;
+    margin: 16px;
+}
+.courese{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* ******************Thesis exhibit ******************/
+
+.box-thesis{
+    display: flex;
+}
+
+
+video{
+    width: 100%;
+}
+.vdo-box{
+    /* border: 1px solid red; */
+    padding-top: 24px;
+    font-size: 0.9rem;
+}
+.urban-p{
+    padding-top: 8px;
+}
+.vdo-nav{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+.vdo-nav ul li img{
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+}
+.vdo-nav ul li{
+    display: flex;
+    padding:16px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.vdo-nav ul li:hover{
+    background-color: gainsboro;
+}
+.box-f{
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    width: 65%;
+}
+footer div{
+    display: flex;
+}
+footer div p a {
+    font-size: 0.9rem;
+}
+@media screen and (min-width: 425px) {
+    .moblie{
+    display: none;
+    }
+    .box-aside{
+        /* border: 1px solid springgreen; */
+        margin: auto 16px;
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .aside-left{
+        display: flex;
+        padding: 16px;
+        border-bottom: 3px double #d3caca80;
+    }
+    .aside-left:hover{
+        background-color: gainsboro;
+    }
+    aside{
+        padding-top: 16px;
+        border-left: 1px groove #d3caca80 ;
+        width: 40%;
+    }
+    .learning{
+        /* border: 1px solid red; */
+        background-color: gainsboro;
+        padding: 32px 56px 16px 56px;
+    }
+    .box-text{
+        /* border: 1px solid red; */
+        margin: 16px 16px 24px 16px;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .vdo{
+        /* border: 1px solid red; */
+        width: 60%;
+        margin-right: 24px;
+    }
+    .thesiss{
+        /* border: 1px solid red; */
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-bottom: 32px;
+    }
+    .thesiss{
+        /* border: 1px solid red; */
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-bottom: 32px;
+    }
+    .thesis-h2{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    footer{
+        border-top: 1px solid gainsboro;
+        padding: 16px 24px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 425px) {
+    .desktop{
+        display: none;
+    }
+    div.herder-box{
+    visibility: hidden;
+    }  
+    .herder-box-moblie{
+        visibility: visible ;
+        background-color: white;
+        position: fixed;
+        top:0;
+        display: flex;
+        height: 64px;
+        width: 100%;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        /* justify-content: center; */  
+        align-items: center;
+        
+    }
+    .herder-box-moblie a img {
+        width: 35px;
+    }
+    .banner{
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img{
+        padding: 0px 0px;
+        width: 100%;
+    }
+    .learn{
+        width: 92%;
+        font-size: 2rem;
+        padding: 0;
+        margin: 32px 16px;
+        color: #505050 ;
+    }
+    .learn-p{
+        font-size: 1.5rem;  
+        padding: 24px 0px;
+        padding-top: 32px;
+     }
+    button{
+        color: white;
+        width: 100%;
+        padding: 8px;
+        font-size: 1.5rem;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    aside{
+        /* border: 1px solid hotpink; */
+        width: 100%;
+    }
+    .box-img{
+        width: 100%;
+    }
+    .aside-left{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100%;
+        /* text-align: center; */
+        justify-content: center;
+        padding:16px;
+    }
+    aside>ul>li>div.box-aside{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 16px 16px;
+    }
+    .moblie-b{
+        padding-top: 32px;
+
+    }
+    .box-start{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+      
+    }
+    .box-text h3{
+        /* border: 1px solid red; */
+        /* font-weight: 400; */
+        padding: 16px 16px 26px 16px;
+        font-size: 1.5rem;
+        background-color: gainsboro;
+        
+    }
+    .thesis-h2{
+        text-align: center;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+    video{
+        margin-bottom: 24px;
+    }
+    footer{
+        border-top: 1px solid gainsboro;
+        padding: 16px ;
+        display: flex;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+    
