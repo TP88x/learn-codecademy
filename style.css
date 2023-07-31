@@ -84,11 +84,12 @@ nav ul li a:hover{
 }
 button{
 
-    background-color: #505050 ;
+    background-color: #50505085 ;
     color: white;
     width: 100%;
     padding: 8px;
     font-size: 1.5rem;
+    border: 0px;
 }
 .learn-p{
     font-size: 1.5rem;  
@@ -139,37 +140,19 @@ h3{
 }
 
 /* **********************Start learning**************************** */
-
 section.learning h2 {
     text-align: center;
     margin-bottom: 16px;
 }
-.box-start{
-    /* border: 1px solid blue; */
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    list-style: none;
-}
-.start{
-    width: 100%;
-    height: auto;
-}
-.box-card{
-    /* border: 1px solid pink; */
-    background-color: white;
-    margin: 16px;
-}
+
 .courese{
     margin-top: 8px;
     margin-bottom: 8px;
 }
 /* ******************Thesis exhibit ******************/
-
 .box-thesis{
     display: flex;
 }
-
-
 video{
     width: 100%;
 }
@@ -211,7 +194,7 @@ footer div{
 footer div p a {
     font-size: 0.9rem;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 426px) {
     .moblie{
     display: none;
     }
@@ -274,6 +257,22 @@ footer div p a {
         margin-bottom: 32px;
         font-size: 0.9rem;
         font-weight: 400;
+    }
+    /* **********************Start learning**************************** */
+    .box-start{
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        list-style: none;
+    }
+    .box-card{
+        /* border: 1px solid pink; */
+        background-color: white;
+        margin: 16px;
+    }
+    .start{
+        width: 100%;
+        height: auto;
     }
 }
 @media screen and (max-width: 425px) {
@@ -359,22 +358,35 @@ footer div p a {
         padding-top: 32px;
 
     }
+    .learning{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
     .box-start{
         display: flex;
         flex-direction: column;
         /* border: 1px solid red; */
-        margin-left: 16px;
+        /* margin-left: 16px; */
         margin-right: 16px;
         margin-bottom: 32px;
-      
+        width: 100%;
+        list-style: none;
+       
     }
     .box-text h3{
         /* border: 1px solid red; */
         /* font-weight: 400; */
         padding: 16px 16px 26px 16px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         background-color: gainsboro;
+        width: 100%;
         
+    }
+    .box-card{
+        /* border: 1px solid pink; */
+        background-color: white;
+        margin: 16px;
+        /* width: 100%; */
     }
     .thesis-h2{
         text-align: center;
@@ -383,6 +395,7 @@ footer div p a {
     }
     video{
         margin-bottom: 24px;
+        width: 100%;
     }
     footer{
         border-top: 1px solid gainsboro;
